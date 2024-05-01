@@ -2,7 +2,9 @@ package training.ch02_2;
 
 import java.util.Scanner;
 
-public class T_2_10 {
+//시력분포를 1명 으로 표시하지 말고 사람수에따라 *표로 표시해야함
+
+public class T_2_10_question_1 {
     static final int VMAX = 21;
 
     static class PhyscData{
@@ -61,7 +63,9 @@ public class T_2_10 {
 
             System.out.println("\n시력 분포");
             for (int i = 0; i < VMAX; i++){
-                System.out.printf("%3.1f~:%2d명\n", i / 10.0, vdist[i]);
+                String a = "*".repeat(vdist[i]);
+                System.out.printf("%3.1f ~: %-3s\n", i / 10.0, a);
+
             }
         }
 
