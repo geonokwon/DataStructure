@@ -49,7 +49,7 @@ public class T_3_8_question_1 {
             int idx = Arrays.binarySearch(
                     x,                                              //배열 x 에서
                     new PhyscData("", 0, vision),      //시력이 vision 인 요소를
-                    PhyscData.VISION_ORDER);                        //HEIGHT_ORDER 에 의해 검색
+                    PhyscData.VISION_ORDER);                        //VISION_ORDER 에 의해 검색
 
             if (idx < 0){
                 System.out.println("그 값은 요소가 없습니다.");
