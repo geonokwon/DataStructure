@@ -2,7 +2,7 @@ package training.ch05;
 
 
 //상향식 분석 , 하향식 분석 해보기
-public class T_5_4_question_4 {
+public class T_5_3_question_4 {
     static void recur2(int n){
         if(n > 0){
             recur2(n - 2);
