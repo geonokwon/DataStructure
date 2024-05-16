@@ -53,7 +53,7 @@ public class T_5_7_question_3 {
                     return;
                 x  = xstk[ptr]; 					// 값을 저장하고 있는 x를 팝
                 y  = ystk[ptr]; 					// 값을 저장하고 있는 y을 팝
-                sw = sstk[ptr] + 1;				// 값을 저장하고 있는 sw을 팝
+                sw = sstk[ptr] + 1;				    // 값을 저장하고 있는 sw을 팝
                 no++;
             } while (sw == 2);
         }
