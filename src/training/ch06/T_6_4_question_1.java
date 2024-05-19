@@ -49,8 +49,8 @@ public class T_6_4_question_1 {
 
         int[] x = {6,4,8,3,1,9,7};
         int nx = scanner.nextInt();
-//        int[] x = new int[nx];
 
+//        int[] x = new int[nx];
 //        for (int i = 0; i < nx; i++){
 //            System.out.print("x[" + i + "] : ");
 //            x[i] = scanner.nextInt();

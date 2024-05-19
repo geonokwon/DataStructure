@@ -10,7 +10,7 @@ public class T_6_5_question_3 {
             int j = i;
             for ( ; a[j - 1] > tmp; j--)
                 a[j] = a[j - 1];
-            if (j > 0) a[j] = tmp;
+            if (j > 0){ a[j] = tmp; }
         }
     }
 
@@ -33,5 +33,6 @@ public class T_6_5_question_3 {
         for (int i = 1; i <= nx; i++){
             System.out.println("a[" + i + "] = " + x[i]);
         }
+
     }
 }
