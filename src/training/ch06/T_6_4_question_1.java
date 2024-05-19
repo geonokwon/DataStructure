@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class T_6_4_question_1 {
     //단순 선택 정렬
-
     static void print(int[]a, int i, int min){
         String[] result = new String[a.length];
         Arrays.fill(result, " ");
